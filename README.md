@@ -151,9 +151,9 @@ Then reference the skill in your system prompt or tool configuration.
 To add a retailer, improve search query patterns, or fix output formatting:
 
 1. Fork the repository
-2. Create a feature branch: `git checkout -b feature/add-nykaa-support`
+2. Create a feature branch: `git checkout -b feature/add-support`
 3. Edit `Product_Finder.md` following the existing section structure
-4. Commit: `git commit -m 'feat: add Nykaa to retailer list'`
+4. Commit: `git commit -m 'feat: add  to retailer list'`
 5. Push and open a Pull Request
 
 The core constraints are non-negotiable: no fabricated data, direct product page links only, all prices in ₹ INR.
@@ -168,6 +168,6 @@ Distributed under the MIT License. See [LICENSE](LICENSE) for details.
 
 ## 👤 Author
 
-**Your Name** — [@YOUR_USERNAME](https://github.com/YOUR_USERNAME)
+**Your Name** — [@Rasik1407S](https://github.com/Rasik1407S)
 
-Project Link: [https://github.com/YOUR_USERNAME/product-finder](https://github.com/YOUR_USERNAME/product-finder)
+Project Link: [https://github.com/Rasik1407S/product-finder](https://github.com/Rasik1407S/product-finder)
