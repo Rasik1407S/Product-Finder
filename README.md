@@ -5,10 +5,8 @@
 
 <div align="center">
 
-[![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](LICENSE)
 [![Platform](https://img.shields.io/badge/platform-Claude%20AI-orange?style=flat-square)](https://claude.ai)
 [![Type](https://img.shields.io/badge/type-Claude%20Skill-purple?style=flat-square)]()
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)](https://github.com/YOUR_USERNAME/product-finder/pulls)
 
 </div>
 
@@ -18,15 +16,14 @@
 
 ## 📋 Table of Contents
 
-- [About](#about)
-- [Features](#features)
-- [How It Works](#how-it-works)
-- [Usage](#usage)
-- [Retailers Covered](#retailers-covered)
-- [Output Format](#output-format)
-- [Installation](#installation)
-- [Contributing](#contributing)
-- [License](#license)
+- [About](https://github.com/Rasik1407S/Product-Finder#-about)
+- [Features](https://github.com/Rasik1407S/Product-Finder#-features)
+- [How It Works](https://github.com/Rasik1407S/Product-Finder#%EF%B8%8F-how-it-works)
+- [Usage](https://github.com/Rasik1407S/Product-Finder#-usage)
+- [Retailers Covered](https://github.com/Rasik1407S/Product-Finder#-retailers-covered)
+- [Output Format](https://github.com/Rasik1407S/Product-Finder#-output-format)
+- [Installation](https://github.com/Rasik1407S/Product-Finder#-installation)
+- [Contributing](https://github.com/Rasik1407S/Product-Finder#-contributing)
 
 ---
 
@@ -160,14 +157,8 @@ The core constraints are non-negotiable: no fabricated data, direct product page
 
 ---
 
-## 📄 License
-
-Distributed under the MIT License. See [LICENSE](LICENSE) for details.
-
----
-
 ## 👤 Author
 
-**Your Name** — [@Rasik1407S](https://github.com/Rasik1407S)
+**Rasik** — [@Rasik1407S](https://github.com/Rasik1407S)
 
 Project Link: [https://github.com/Rasik1407S/product-finder](https://github.com/Rasik1407S/product-finder)
