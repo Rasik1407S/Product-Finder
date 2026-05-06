@@ -29,30 +29,30 @@
 
 ## 🧠 About
 
-Product Finder is a Claude skill that searches India's major online retailers and returns a structured price comparison table. Describe what you want — "Sony soundbar" or "Godrej double-door fridge" — and it queries Amazon India, Flipkart, Croma, Reliance Digital, Tata CLiQ, Vijay Sales, and others in parallel, then presents prices, stock status, ratings, and direct purchase links in one place.
+Product Finder is a Claude skill that searches India's major online retailers and returns a structured price comparison table. Describe what you want - "Sony soundbar" or "Godrej double-door fridge" - and it queries Amazon India, Flipkart, Croma, Reliance Digital, Tata CLiQ, Vijay Sales, and others in parallel, then presents prices, stock status, ratings, and direct purchase links in one place.
 
 It fetches live data for each search rather than pulling from a cached database, and it marks any value it cannot confirm as "—" rather than filling in a guess. Out-of-stock items still appear in the table, clearly flagged, so you can decide whether to wait or look elsewhere.
 
-The skill covers all product categories — electronics, appliances, furniture, apparel, and niche goods. If it ships to an Indian address, this skill will look for it.
+The skill covers all product categories - electronics, appliances, furniture, apparel, and niche goods. If it ships to an Indian address, this skill will look for it.
 
 ---
 
 ## ✨ Features
 
-- 🔍 **Parallel multi-retailer search** — Amazon India, Flipkart, Croma, Reliance Digital, Tata CLiQ, Vijay Sales, and niche stores, all in one query
-- 📊 **Structured comparison table** — price, stock, star rating, and a direct product link per retailer
-- 💰 **Sale price detection** — shows original and sale price side-by-side: ~~₹12,999~~ ₹9,999
-- ⚠️ **Granular stock flags** — ✅ In stock / ❌ Out of stock / ⚠️ Limited, not just a binary available/unavailable
-- 🔄 **Optional alternatives table** — asks before generating, then shows similar products in a separate table
-- 🧾 **Summary callout** — best price, best availability, and top-rated listing called out after every result
-- 🚫 **No fabricated data** — unverified cells are marked "—", not filled with plausible-sounding numbers
-- 📅 **Recency flagging** — pricing data older than 60 days is flagged as potentially stale
+- 🔍 **Parallel multi-retailer search** - Amazon India, Flipkart, Croma, Reliance Digital, Tata CLiQ, Vijay Sales, and niche stores, all in one query
+- 📊 **Structured comparison table** - price, stock, star rating, and a direct product link per retailer
+- 💰 **Sale price detection** - shows original and sale price side-by-side: ~~₹12,999~~ ₹9,999
+- ⚠️ **Granular stock flags** - ✅ In stock / ❌ Out of stock / ⚠️ Limited, not just a binary available/unavailable
+- 🔄 **Optional alternatives table** - asks before generating, then shows similar products in a separate table
+- 🧾 **Summary callout** - best price, best availability, and top-rated listing called out after every result
+- 🚫 **No fabricated data** - unverified cells are marked "—", not filled with plausible-sounding numbers
+- 📅 **Recency flagging** - pricing data older than 60 days is flagged as potentially stale
 
 ---
 
 ## ⚙️ How It Works
 
-Product Finder is a Claude skill — a structured prompt workflow that gives Claude specific search and comparison behaviour. It uses Claude's built-in `web_search` and `web_fetch` tools to query retailer sites directly.
+Product Finder is a Claude skill - a structured prompt workflow that gives Claude specific search and comparison behaviour. It uses Claude's built-in `web_search` and `web_fetch` tools to query retailer sites directly.
 
 ```
 Input → Parse intent → Parallel search across retailers
@@ -66,7 +66,7 @@ Input → Parse intent → Parallel search across retailers
 
 ## 🚀 Usage
 
-Describe the product in plain language. A brand name plus product type is enough — exact model numbers help but are not required.
+Describe the product in plain language. A brand name plus product type is enough - exact model numbers help but are not required.
 
 **Example prompts:**
 
@@ -110,9 +110,9 @@ The skill will search the major retailers, ask if you want alternatives included
 
 ### Summary Callout
 
-> **Best price:** Amazon India — ₹14,999  
-> **Best availability:** Amazon India & Flipkart — both confirmed in stock  
-> **Top-rated:** Amazon India — 4.3/5 from 1,842 reviews  
+> **Best price:** Amazon India - ₹14,999  
+> **Best availability:** Amazon India & Flipkart - both confirmed in stock  
+> **Top-rated:** Amazon India - 4.3/5 from 1,842 reviews  
 > **Recommended pick:** Amazon India at ₹14,999 with the highest rating and confirmed stock.
 
 If alternatives are requested, a second table appears below with the same columns plus a "Why It's an Alternative" column explaining the trade-off.
